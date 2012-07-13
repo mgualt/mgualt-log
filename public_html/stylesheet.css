@@ -1,0 +1,98 @@
+/* want a font from google web fonts */
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+/* Same font used for everything */
+* {font-family: PT Serif/*'PT Sans Narrow'*/, Georgia, Serif;
+} 
+
+
+/* special format for the title class  */
+.title {
+   }
+
+/* control the image at right top */
+.righttop { position:absolute;
+	    top: 2.5em;
+            right: 2em;
+	    width: 210px;
+	    height: 180px;}
+
+/* Sets the offset of the main part from the sides  */
+#content, #postamble {margin: 2em; margin-left: 1.5em; }
+
+/* the title is in class h1 but is centered by org default css. */ 
+h1 {font-weight: normal; 
+    margin:0ex; 
+    margin-bottom: 1ex}
+
+/* h2 is the top level sections in org  */
+h2 { font-size:1.2em;
+     font-weight: normal;
+     margin: 0em; 
+     margin-bottom: 1ex; 
+     margin-top: 2ex}
+
+/* h3 is the second level in org */
+h3 {
+    font-size:1em;
+    font-weight: normal; 
+    margin-left: 1em;  
+    margin-top:.2em; 
+    margin-bottom:.2em; }
+
+a { color: #151B54; 
+    text-decoration: none
+}
+
+a:hover { color: #54151B;
+}
+
+/*  paragraph text  */
+p { 
+    text-align: left; 
+    margin-top:0em; 
+    margin-bottom:0.5em;
+    width:50em;
+/*margin-bottom: 2em; margin-top: 2em;*/
+}
+
+/* tags */
+
+.tag {
+float: right;
+background-color: white;
+color: #BEBEBE;
+}
+.tag span:before {
+    content: "| ";
+}
+.tag:after {
+    content: " |";
+}
+
+.timestamp {
+color:#BEBEBE;
+}
+.timestamp:before {
+    content: "[";
+}
+.timestamp:after {
+    content: "]";
+}
+
+.org-info-js_header-navigation {
+    width:0px;
+    visibility:hidden; /* doesn't seem to work. needs 0 width above */
+}
+
+ul {
+padding-left: 0em;
+list-style-type:none;
+margin:0em;
+}
+
+/* #postamble {
+    visibility:hidden;
+    width:0px;
+}*/
+
