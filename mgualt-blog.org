@@ -107,7 +107,6 @@ Should figure out a good way to make a 3d embedding.
              :base-extension "js"
              :publishing-directory "~/Dropbox/Web/mgualt-log/public_html/scripts"
              :publishing-function org-publish-attachment)
-
             ("thewholedamnshow" :components ("mysite" "css" "imgs" "etc" "docs" "scripts"))))
 #+END_SRC
 
