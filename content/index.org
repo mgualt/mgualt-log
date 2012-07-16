@@ -30,7 +30,7 @@ A remarkable post from April 21 2011:  [[http://marciovm.com/i-want-a-github-of-
 I also found a [[http://twitter.com/scigit][guy]] at Waterloo working on [[http://www.scigit.com/][scigit.]]
 
 * <2012-07-14 Sat> Document question on HN :docs:
-This is a question about how to approach the design and development of a 
+[[http://news.ycombinator.com/item?id%3D4245632][This]] is my question about how to approach the design and development of a 
 document format.
 
 The basic problem is this: in math (and other disciplines), 
