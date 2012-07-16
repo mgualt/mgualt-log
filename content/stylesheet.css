@@ -59,7 +59,6 @@ p {
 
 .tag {
 float: right;
-background-color: white;
 color: #D6D6D6;
 }
 .tag span:before {
