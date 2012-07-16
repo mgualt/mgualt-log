@@ -1,0 +1,162 @@
+#+TITLE:     Marco Gualtieri / Log
+#+AUTHOR:    Marco Gualtieri
+#+EMAIL:     mgualt@math.toronto.edu
+#+DATE:      2012-07-11 Wed
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:0 toc:nil ltoc:nil mouse:rgb(230,230,230) buttons:nil path:scripts/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+#+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	  
+
+* <2012-07-15 Sun> Minimal publishable unit or 'nanopublication'       :docs:
+[[http://youtu.be/-xXF9-maxtw][Talk]] about basic scientific assertions  
+* <2012-07-15 Sun> Beyond the PDF                                      :docs:
+This workshop "[[https://sites.google.com/site/beyondthepdf][Beyond the PDF]]" seems to have a lot of interesting proposals.
+In particular, there is a [[https://groups.google.com/forum/?fromgroups#!forum/beyond-the-pdf][discussion group]] where I learned about [[http://blogs.ch.cam.ac.uk/pmr/2011/03/14/scholarly-html-%25E2%2580%2593-major-progress/][Scholarly HTML.
+]]Check out the website [[http://scholarlyhtml.org/][scholarlyhtml.org]].  It seems too tentative and not well-developed.
+Interesting [[http://www.zfishbook.org/NGP/][zfishbook]] talk - important question brought up at the end.
+The question is about developing a platform for developing tools for going 
+beyond PDF towards a HTML5 + Javascript solution.
+* <2012-07-15 Sun> Github for science                                  :docs:
+A remarkable post from April 21 2011:  [[http://marciovm.com/i-want-a-github-of-science/][We need a github of science]]
+I also found a [[http://twitter.com/scigit][guy]] at Waterloo working on [[http://www.scigit.com/][scigit.]]
+
+* <2012-07-14 Sat> Document question on HN :docs:
+This is a question about how to approach the design and development of a 
+document format.
+
+The basic problem is this: in math (and other disciplines), 
+we write a LaTeX markup file and then compile it to PDF.  
+PDF is basically a paper simulator and lacks many features 
+which webpages/sites can have. 
+
+An alternative would be to have a versatile but still constrained markup
+language (e.g. an extension of LaTeX, or a constrained org-mode) which 
+can be compiled or "exported" to HTML among other formats.
+
+Some of the benefits would include
+- Folding of text: hiding parts of the document until further details are desired
+- more sophisticated linking between (parts of) documents
+- nonlinear/hierarchical document structure
+- including media such as animation/tutorials
+- running code in the document
+
+The question is: how to approach the development of the *system*.  For example,
+many of the features could be implemented, say in jquery or some such, 
+but the system should be independent of implementation.  How does one proceed
+in a future-proof way whereby the choices are not regretted down the line?
+
+Note that this is not about typesetting -- I am aware of the web typesetting
+problem. This is about the inadequacy of PDF as a document format for the future.
+
+  
+
+  
+
+* <2012-07-12 Thu> Rating board                               :journals:math:
+We need a replacement for journals - well known problem.  
+I could just rate the papers I read. Provide a critique and comments,
+modifications, notes etc.  Public information should be accessible 
+and site could be joined by others. Check out what is happening online on this topic.
+* <2012-07-12 Thu> Documents and Javascript                       :docs:math:
+Mathematical documents need to evolve away from PDFs,
+which are paper simulations, and towards active documents which have 
+interactive features, such as:
+- *folding* 
+The ability to hide sections of the text to make reading simpler.
+- *linking*
+PDFs already have, but internal linking and linking to other documents
+in a project or related web of documents would be good.
+- *running animations or code*
+Latex and orgmode have
+- *versioning and branching*
+People can modify papers in an automated way, create new versions,
+combine results of sections and include sections as modules in other
+papers.
+- *org-info.js*
+Something which may be helpful is the use of org-info.js which
+encapsulates various javascript functions in a markup language so that
+the precise nature of the javascript is hidden.  It would be good to
+develop certain elementary operations which we would need for the
+creation of web documents as an output format for orgmode used as a
+mathematical document system. It already has Latex inter-operability,
+so we could view it as a LaTeX enhancement which outputs to an active
+webpage or wiki-like acrive document.
+
+I would like to see any proposals or studies which deal with these
+kinds of issues, especially to help decide what the core elements of
+an active document would be.  Try to think about what goes into an AMS
+article class document in LaTeX...  what would be the analog for an
+active document.
+
+* <2012-07-11 Wed> Geometry on a Lie group                             :math:
+ Alejandro, Eckhard and I are writing a paper about obtaining geometry 
+ on a Lie group via infinite-dimensional reduction.  This includes
+ a (multiplicative) Courant algebroid structure as well as a multiplicative
+ Dirac structure.  
+
+ My main difficulty is that it is unclear what the big picture is - 
+ how does it relate to work of Sullivan, Getzler, and Henriques?
+
+* <2012-07-11 Wed> LP Integrable system (45/33 rpm trajectory)     :art:math:
+Map from a torus to a plane.  
+Should figure out a good way to make a 3d embedding.
+
+ #+BEGIN_HTML
+ <iframe src="http://player.vimeo.com/video/31933085?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/31933085">Drawing Apparatus</a> from <a href="http://vimeo.com/user7412944">Robert Howsare</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+ #+END_HTML
+
+
+* COMMENT 
+#+srcname: org-publish
+#+BEGIN_SRC emacs-lisp
+  (setq home "~/Dropbox/Web/mgualt-log")
+  (setq org-export-html-style-include-default nil)
+  (setq org-export-html-postamble nil)
+  (setq org-publish-project-alist
+          '(("mysite"
+             :base-directory "~/Dropbox/Web/mgualt-log/content/"
+             :base-extension "org"
+             :recursive t
+             :section-numbers nil
+             :table-of-contents nil
+             :publishing-directory "~/Dropbox/Web/mgualt-log/")
+            ("css"
+             :base-directory "~/Dropbox/Web/mgualt-log/"
+             :base-extension "css"
+             :publishing-directory "~/Dropbox/Web/mgualt-log/"
+             :publishing-function org-publish-attachment)
+            ("imgs"
+             :base-directory "~/Dropbox/Web/mgualt-log/content/imgs/"
+             :base-extension "jpg\\|gif\\|png"
+             :publishing-directory "~/Dropbox/Web/mgualt-log/imgs"
+             :publishing-function org-publish-attachment)
+            ("docs"
+             :base-directory "~/Dropbox/Web/mgualt-log/content/docs/"
+             :base-extension "html\\|tex\\|bib"
+             :publishing-directory "~/Dropbox/Web/mgualt-log/docs"
+             :publishing-function org-publish-attachment)
+            ("scripts"
+             :base-directory "~/Dropbox/Web/mgualt-log/content/scripts/"
+             :base-extension "js"
+             :publishing-directory "~/Dropbox/Web/mgualt-log/scripts"
+             :publishing-function org-publish-attachment)
+            ("thewholedamnshow" :components ("mysite" "css" "imgs" "docs" "scripts"))))
+#+END_SRC
+
+#+RESULTS:
+| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org   | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ |
+| css              | :base-directory | ~/Dropbox/Web/mgualt-log/                 | :base-extension | css   | :publishing-directory | ~/Dropbox/Web/mgualt-log/        | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
+| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg\  | gif\                  | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |
+| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html\ | tex\                  | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |
+| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js    | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
+| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |       |                       |                                  |                       |                               |                      |                        |                       |                           |
+
