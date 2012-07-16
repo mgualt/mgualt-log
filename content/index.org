@@ -60,7 +60,6 @@ problem. This is about the inadequacy of PDF as a document format for the future
   
 
   
-
 * <2012-07-12 Thu> Rating board                               :journals:math:
 We need a replacement for journals - well known problem.  
 I could just rate the papers I read. Provide a critique and comments,
@@ -98,7 +97,7 @@ article class document in LaTeX...  what would be the analog for an
 active document.
 
 * <2012-07-11 Wed> Geometry on a Lie group                             :math:
- Alejandro, Eckhard and I are writing a paper about obtaining geometry 
+Alejandro, Eckhard and I are writing a paper about obtaining geometry 
  on a Lie group via infinite-dimensional reduction.  This includes
  a (multiplicative) Courant algebroid structure as well as a multiplicative
  Dirac structure.  
@@ -118,7 +117,6 @@ Should figure out a good way to make a 3d embedding.
 * COMMENT 
 #+srcname: org-publish
 #+BEGIN_SRC emacs-lisp
-  (setq home "~/Dropbox/Web/mgualt-log")
   (setq org-export-html-style-include-default nil)
   (setq org-export-html-postamble nil)
   (setq org-publish-project-alist
