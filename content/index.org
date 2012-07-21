@@ -15,6 +15,16 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  
+* <2012-07-21 Sat> Teeth grinding                                      :idea:
+Is there any evidence in the literature that we can be trained in our sleep?
+I am imagining a device which monitors ambient noise during sleep, and when 
+it detects tooth grinding, it sends a small electric shock to, say, your
+toe. Over time, would this train the body to not grind teeth?
+
+A corollary of this idea is the question of how to develop a simple software
+utility and push it out to various platforms, including, say, an arduino style
+thing.  Would there be kickstarter support for the production of such
+a gizmo? I asked about it on [[http://news.ycombinator.com/item?id%3D4275630][HN]].
 
 * <2012-07-15 Sun> Minimal publishable unit or 'nanopublication'       :docs:
 [[http://youtu.be/-xXF9-maxtw][Talk]] about basic scientific assertions  
