@@ -15,7 +15,13 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  
-* <2012-08-06 Mon> Musical annotation                                  :idea:
+* <2012-08-06 Mon> Recorder Duet                                      :music:
+Based on a suggestion from Alan Weinstein, I looked into possibly recording
+recorder duets. My first example is this [[https://dl.dropbox.com/u/4747602/loeillet-de-gant-op1-no1-i-Adagio.ogg][recording]] of loeillet de Gant's first 
+recorder sonata (mov. 1).  I will have to refine the intonation as well as the
+phrasing.  It would be interesting to choose a series of sonatas and to record
+them all. 
+* <2012-08-06 Mon> Musical annotation                            :idea:music:
 It would be good to have a system whereby a recording can be made and then
 annotated, say, by a music teacher.  It could be a text file with a reference
 to a .ogg file, or some such thing.  It could be part of a web app for virtual
