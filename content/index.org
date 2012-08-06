@@ -15,6 +15,11 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  
+* <2012-08-06 Mon> Musical annotation
+It would be good to have a system whereby a recording can be made and then
+annotated, say, by a music teacher.  It could be a text file with a reference
+to a .ogg file, or some such thing.  It could be part of a web app for virtual
+music teaching.  
 * <2012-07-21 Sat> Teeth grinding                                      :idea:
 Is there any evidence in the literature that we can be trained in our sleep?
 I am imagining a device which monitors ambient noise during sleep, and when 
