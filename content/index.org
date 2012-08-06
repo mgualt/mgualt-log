@@ -15,7 +15,7 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  
-* <2012-08-06 Mon> Musical annotation
+* <2012-08-06 Mon> Musical annotation                                  :idea:
 It would be good to have a system whereby a recording can be made and then
 annotated, say, by a music teacher.  It could be a text file with a reference
 to a .ogg file, or some such thing.  It could be part of a web app for virtual
