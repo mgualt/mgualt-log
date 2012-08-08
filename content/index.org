@@ -24,6 +24,11 @@ to the document (which may make sense).
 I would like a system similar to this for all the notes and working files for 
 my group.  But I can't figure out how the thing should be organized.  Is this better
 than, say, a wiki?   I really don't know.
+
+One possible solution would be as follows.  
+- Git repo of a bunch of .tex files
+- Online editor/wiki with mathjax which includes a default preamble
+
 * <2012-08-06 Mon> Recorder Duet                                      :music:
 Based on a suggestion from Alan Weinstein, I looked into possibly recording
 recorder duets. My first example is this [[https://dl.dropbox.com/u/4747602/loeillet-de-gant-op1-no1-i-Adagio.ogg][recording]] of loeillet de Gant's first 
