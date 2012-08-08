@@ -15,6 +15,15 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	  
+* <2012-08-07 Tue> Stacks Project                                 :docs:math:
+I am very impressed with the new setup of the [[http://stacks.math.columbia.edu/][Stacks Project]].  It is on Github and also
+has a separate project for the [[https://github.com/pbelmans/stacks-website][website]], which has some advanced features.
+I don't quite understand the thinking behind the tags, which seem to be external 
+to the document (which may make sense).
+
+I would like a system similar to this for all the notes and working files for 
+my group.  But I can't figure out how the thing should be organized.  Is this better
+than, say, a wiki?   I really don't know.
 * <2012-08-06 Mon> Recorder Duet                                      :music:
 Based on a suggestion from Alan Weinstein, I looked into possibly recording
 recorder duets. My first example is this [[https://dl.dropbox.com/u/4747602/loeillet-de-gant-op1-no1-i-Adagio.ogg][recording]] of loeillet de Gant's first 
