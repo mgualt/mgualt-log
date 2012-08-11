@@ -14,7 +14,9 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-	  
+
+* <2012-08-10 Fri> New wiki for glab                                   :math:
+The new wiki for glab is here [[gualtieri.math.toronto.edu/glab/][glab wiki]].
 * <2012-08-07 Tue> Stacks Project                                 :docs:math:
 I am very impressed with the new setup of the [[http://stacks.math.columbia.edu/][Stacks Project]].  It is on Github and also
 has a separate project for the [[https://github.com/pbelmans/stacks-website][website]], which has some advanced features.
