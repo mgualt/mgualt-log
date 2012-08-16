@@ -98,8 +98,7 @@ in a future-proof way whereby the choices are not regretted down the line?
 Note that this is not about typesetting -- I am aware of the web typesetting
 problem. This is about the inadequacy of PDF as a document format for the future.
 
-  
-
+Very good response on my news.ycombinator post: [[http://news.ycombinator.com/item?id%3D4311611][response]].
 * <2012-07-12 Thu> Rating board                               :journals:math:
 We need a replacement for journals - well known problem.  
 I could just rate the papers I read. Provide a critique and comments,
