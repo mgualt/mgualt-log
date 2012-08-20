@@ -14,34 +14,41 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-08-19 Sun> Gists                                               :blog:
+It's relatively easy to embed [[https://gist.github.com/3140785][a gist]], which could even be an .org file, 
+into a blog entry.  The question is, what should the blog architecture really be?
+Should every post be a gist? What is the advantage of this?
+* <2012-08-16 Thu> Using git for project management               :docs:math:
+[[http://code.google.com/p/tigus/wiki/GitCollaborationGuide][Useful collaboration guide]]
 
 * <2012-08-10 Fri> New wiki for glab                                   :math:
 The new wiki for glab is here [[http://gualtieri.math.toronto.edu/glab/][glab wiki]].
 * <2012-08-07 Tue> Stacks Project                                 :docs:math:
-I am very impressed with the new setup of the [[http://stacks.math.columbia.edu/][Stacks Project]].  It is on Github and also
-has a separate project for the [[https://github.com/pbelmans/stacks-website][website]], which has some advanced features.
-I don't quite understand the thinking behind the tags, which seem to be external 
-to the document (which may make sense).
+I am very impressed with the new setup of the [[http://stacks.math.columbia.edu/][Stacks Project]].  It is
+on Github and also has a separate project for the [[https://github.com/pbelmans/stacks-website][website]], which has
+some advanced features.  I don't quite understand the thinking behind
+the tags, which seem to be external to the document (which may make
+sense).
 
-I would like a system similar to this for all the notes and working files for 
-my group.  But I can't figure out how the thing should be organized.  Is this better
-than, say, a wiki?   I really don't know.
+I would like a system similar to this for all the notes and working
+files for my group.  But I can't figure out how the thing should be
+organized.  Is this better than, say, a wiki?  I really don't know.
 
 One possible solution would be as follows.  
 - Git repo of a bunch of .tex files
 - Online editor/wiki with mathjax which includes a default preamble
 
 * <2012-08-06 Mon> Recorder Duet                                      :music:
-Based on a suggestion from Alan Weinstein, I looked into possibly recording
-recorder duets. My first example is this [[https://dl.dropbox.com/u/4747602/loeillet-de-gant-op1-no1-i-Adagio.ogg][recording]] of loeillet de Gant's first 
-recorder sonata (mov. 1).  I will have to refine the intonation as well as the
-phrasing.  It would be interesting to choose a series of sonatas and to record
-them all. 
+Based on a suggestion from Alan Weinstein, I looked into possibly
+recording recorder duets. My first example is this [[https://dl.dropbox.com/u/4747602/loeillet-de-gant-op1-no1-i-Adagio.ogg][recording]] of
+loeillet de Gant's first recorder sonata (mov. 1).  I will have to
+refine the intonation as well as the phrasing.  It would be
+interesting to choose a series of sonatas and to record them all.
 * <2012-08-06 Mon> Musical annotation                            :idea:music:
-It would be good to have a system whereby a recording can be made and then
-annotated, say, by a music teacher.  It could be a text file with a reference
-to a .ogg file, or some such thing.  It could be part of a web app for virtual
-music teaching.
+It would be good to have a system whereby a recording can be made and
+then annotated, say, by a music teacher.  It could be a text file with
+a reference to a .ogg file, or some such thing.  It could be part of a
+web app for virtual music teaching.
 
 Ideally you could also annotate the score, or perhaps the annotation should only be attached
 to the score, I am not sure.  Could Dror Bar-Natan's system for annotation of video
