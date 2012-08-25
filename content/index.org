@@ -14,6 +14,13 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-08-25 Sat> Lava                                               :video:
+This is an experimental lava pour
+
+#+BEGIN_HTML
+<iframe src="http://player.vimeo.com/video/19260895?color=ff9933" width="800" height="600" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+#+END_HTML
+
 * <2012-08-19 Sun> Gists                                               :blog:
 It's relatively easy to embed [[https://gist.github.com/3140785][a gist]], which could even be an .org file, 
 into a blog entry.  The question is, what should the blog architecture really be?
