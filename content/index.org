@@ -14,6 +14,16 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-08-30 Thu> Typography and math fonts                      :docs:math:
+A very interesting [[http://www.typoma.com/publ/20040430-bachotex.pdf][talk]] about designing math fonts - unfortunately it
+is not an open source project.
+
+This very beautiful [[http://stp.lingfil.uu.se/~kuhlmann/pdf/kuhlmann2007dependency.pdf][dissertation]] uses other typoma fonts - many nice
+ideas for math typesetting.
+
+This really stresses the importance of having latex control web
+output - including colour, fonts, document structure, macros,
+indexing, toc, etc.
 * <2012-08-25 Sat> Lava                                               :video:
 This is an experimental lava pour
 
