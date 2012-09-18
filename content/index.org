@@ -103,7 +103,6 @@ beyond PDF towards a HTML5 + Javascript solution.
 * <2012-07-15 Sun> Github for science                                  :docs:
 A remarkable post from April 21 2011:  [[http://marciovm.com/i-want-a-github-of-science/][We need a github of science]]
 I also found a [[http://twitter.com/scigit][guy]] at Waterloo working on [[http://www.scigit.com/][scigit.]]
-
 * <2012-07-14 Sat> Document question on HN :docs:
 [[http://news.ycombinator.com/item?id%3D4245632][This]] is my question about how to approach the design and development of a 
 document format.
