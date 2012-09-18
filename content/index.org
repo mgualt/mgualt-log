@@ -14,6 +14,14 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-09-17 Mon> Incredible PDF2HTMLEX                     :docs:idea:math:
+In [[http://news.ycombinator.com/item?id%3D4528797][this]] HN post, I discovered an amazing project by Wang Lu, which is a very careful conversion 
+from PDF to HTML5.  This opens up a wealth of possibilities for going beyond PDF output with LaTeX.
+After some difficulty, I managed to compile the software (I'm not sure why the executable couldn't be distributed)
+and managed to get incredible results, like [[http://www.math.toronto.edu/mgualt/courses/MAT1300F-2012/docs/1300-2012-notes-1.html][these notes]] for my course.  
+
+It also pushed me to open the following [[https://github.com/coolwanglu/pdf2htmlEX/issues/25][issue]] at the GitHub project page, where I speculate about possible
+extensions of the idea. 
 * <2012-08-30 Thu> Typography and math fonts                      :docs:math:
 A very interesting [[http://www.typoma.com/publ/20040430-bachotex.pdf][talk]] about designing math fonts - unfortunately it
 is not an open source project.
@@ -196,12 +204,12 @@ Should figure out a good way to make a 3d embedding.
              :publishing-function org-publish-attachment)
             ("imgs"
              :base-directory "~/Dropbox/Web/mgualt-log/content/imgs/"
-             :base-extension "jpg\\|gif\\|png"
+             :base-extension "jpg\|gif\|png"
              :publishing-directory "~/Dropbox/Web/mgualt-log/imgs"
              :publishing-function org-publish-attachment)
             ("docs"
              :base-directory "~/Dropbox/Web/mgualt-log/content/docs/"
-             :base-extension "html\\|tex\\|bib"
+             :base-extension "html\|tex\|bib"
              :publishing-directory "~/Dropbox/Web/mgualt-log/docs"
              :publishing-function org-publish-attachment)
             ("scripts"
@@ -213,10 +221,10 @@ Should figure out a good way to make a 3d embedding.
 #+END_SRC
 
 #+RESULTS:
-| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org   | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ |
-| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | css   | :publishing-directory | ~/Dropbox/Web/mgualt-log/        | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
-| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg\  | gif\                  | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |
-| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html\ | tex\                  | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |
-| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js    | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
-| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |       |                       |                                  |                       |                               |                      |                        |                       |                           |
+| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org  | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ |
+| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/        | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
+| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg  | gif                   | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |
+| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html | tex                   | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |
+| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js   | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
+| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |      |                       |                                  |                       |                               |                      |                        |                       |                           |
 
