@@ -27,7 +27,7 @@ h1 {font-weight: normal;
 /* h2 is the top level sections in org  */
 h2 { font-size:1.2em;
      font-weight: normal;
-     margin: 0em; 
+     margin: 0em;
      margin-bottom: 1ex; 
     /* margin-top: 2ex*/}
 
@@ -39,8 +39,8 @@ h3 {
     margin-top:.2em; 
     margin-bottom:.2em; }
 
-a { color: #151B54; 
-    text-decoration: none
+a { color: #151B94; 
+    text-decoration: underline;
 }
 
 a:hover { color: #54151B;
@@ -51,7 +51,8 @@ p {
     text-align: left; 
     margin-top:0em; 
     margin-bottom:0.5em;
-    width:50em;
+    margin-left:170px;
+    width:30em;
 /*margin-bottom: 2em; margin-top: 2em;*/
 }
 
@@ -71,7 +72,7 @@ color: #D6D6D6;
 .timestamp {
 color:#D6D6D6;
 float:left;
-width:9em;
+width:170px;
 }
 .timestamp:before {
     content: "[";

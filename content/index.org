@@ -14,6 +14,13 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-09-17 Mon> Gist via command line                          :docs:idea:
+Here is a great idea for a command-line utility: [[https://github.com/defunkt/gist][gist]] takes input a text file on your computer and 
+outputs a url to a gist where the text file has been published.  It is easily installed via homebrew.
+
+It is a great idea but it is unmaintained.  For some reason, it fails if the text file contains a "%" character.
+The fact that such a software bug can exist at all, and can continue to exist after it is noticed 
+by countless programmers, tells me that software engineering is a dead field.
 * <2012-09-17 Mon> Incredible PDF2HTMLEX                     :docs:idea:math:
 In [[http://news.ycombinator.com/item?id%3D4528797][this]] HN post, I discovered an amazing project by Wang Lu, which is a very careful conversion 
 from PDF to HTML5.  This opens up a wealth of possibilities for going beyond PDF output with LaTeX.
