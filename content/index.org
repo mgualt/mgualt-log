@@ -33,12 +33,7 @@ This really stresses the importance of having latex control web
 output - including colour, fonts, document structure, macros,
 indexing, toc, etc.
 * <2012-08-25 Sat> Lava                                               :video:
-This is an experimental lava pour
-
-#+BEGIN_HTML
-<iframe src="http://player.vimeo.com/video/19260895?color=ff9933" width="800" height="600" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-#+END_HTML
-
+This is an experimental lava pour: [[http://vimeo.com/19260895][Lava Pour No. 5]]
 * <2012-08-19 Sun> Gists                                               :blog:
 It's relatively easy to embed [[https://gist.github.com/3140785][a gist]], which could even be an .org file, 
 into a blog entry.  The question is, what should the blog architecture really be?
@@ -179,11 +174,7 @@ Alejandro, Eckhard and I are writing a paper about obtaining geometry
 * <2012-07-11 Wed> LP Integrable system (45/33 rpm trajectory)     :art:math:
 Map from a torus to a plane.  
 Should figure out a good way to make a 3d embedding.
-
- #+BEGIN_HTML
- <iframe src="http://player.vimeo.com/video/31933085?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/31933085">Drawing Apparatus</a> from <a href="http://vimeo.com/user7412944">Robert Howsare</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
- #+END_HTML
-
+[[http://vimeo.com/31933085][Drawing Apparatus]]
 * COMMENT 
 #+srcname: org-publish
 #+BEGIN_SRC emacs-lisp
