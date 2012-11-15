@@ -14,6 +14,11 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2012-11-15 Thu> Weinberg and QFT                                 :physics:
+A very interesting article about the history of QFT:
+[[http://logos.sjca.edu/~dcasey/NEH/assets/WeinbergNotesFieldTheoryHistory.pdf]]
+* <2012-11-04 Sun> Composition technology                              :docs:
+Great article about the influence of technology on writing: [[http://www.technologyreview.com/review/429654/how-authors-write/#comments][MIT technology review]]
 * <2012-09-17 Mon> Gist via command line                          :docs:idea:
 Here is a great idea for a command-line utility: [[https://github.com/defunkt/gist][gist]] takes input a text file on your computer and 
 outputs a url to a gist where the text file has been published.  It is easily installed via homebrew.
