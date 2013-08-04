@@ -15,6 +15,9 @@
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
 * <2013-08-04 Sun> Stokes Groupoids                                    :math:
+:PROPERTIES:
+:ID: 046EA1BD-44CC-4496-8E7A-19CCC68E99AA
+:END:
 Our recent paper, [[http://arxiv.org/abs/1305.7288][The Stokes Groupoids]], contains new examples of
 simple and explicit Lie groupoids.  The simplest nontrivial one of
 these is $\mathrm{Sto}_2$, a two-dimensional Lie groupoid over
