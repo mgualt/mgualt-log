@@ -14,6 +14,13 @@
 #+LINK_HOME: 
 #+XSLT:
 #+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+* <2013-08-04 Sun> Stokes Groupoids                                    :math:
+Our recent paper, [[http://arxiv.org/abs/1305.7288][The Stokes Groupoids]], contains new examples of
+simple and explicit Lie groupoids.  The simplest nontrivial one of
+these is $\mathrm{Sto}_2$, a two-dimensional Lie groupoid over
+$\mathbb{C}$ with total space $\mathbb{C}\times\mathbb{C}$. Here is a
+picture of this thing:
+[[file:imgs/Sto_2.png][Stokes groupoid of order two]]
 * <2012-11-15 Thu> Weinberg and QFT                                 :physics:
 A very interesting article about the history of QFT:
 [[http://logos.sjca.edu/~dcasey/NEH/assets/WeinbergNotesFieldTheoryHistory.pdf]]
