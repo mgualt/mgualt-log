@@ -13,7 +13,14 @@
 #+LINK_UP:   
 #+LINK_HOME: 
 #+XSLT:
-#+STYLE:  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+#+OPTIONS: html-style: nil
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+* <2013-08-11 Sun> New version of K. Healy's ESKSS                     :docs:
+  [[http://kieranhealy.org/resources/emacs-starter-kit.html][Emacs Starter Kit for the Social Sciences]] Would like to have a
+  simplified version for LaTeX development, including Git integration and
+  full Bibtex or reftex integration, as well as hopefully publishing integration 
+  using Andrew Stacey's tex-html under development.
 * <2013-08-04 Sun> Stokes Groupoids                                    :math:
 :PROPERTIES:
 :ID: 046EA1BD-44CC-4496-8E7A-19CCC68E99AA
@@ -196,11 +203,11 @@ Alejandro, Eckhard and I are writing a paper about obtaining geometry
 Map from a torus to a plane.  
 Should figure out a good way to make a 3d embedding.
 [[http://vimeo.com/31933085][Drawing Apparatus]]
-* COMMENT 
+* COMMENT
+
 #+srcname: org-publish
 #+BEGIN_SRC emacs-lisp
-  (setq org-export-html-style-include-default nil)
-  (setq org-export-html-postamble nil)
+  (setq org-html-head-include-scripts nil)
   (setq org-publish-project-alist
           '(("mysite"
              :base-directory "~/Dropbox/Web/mgualt-log/content/"
@@ -210,9 +217,9 @@ Should figure out a good way to make a 3d embedding.
              :table-of-contents nil
              :publishing-directory "~/Dropbox/Web/mgualt-log/")
             ("css"
-             :base-directory "~/Dropbox/Web/mgualt-log/content/"
+             :base-directory "~/Dropbox/Web/mgualt-log/content/css"
              :base-extension "css"
-             :publishing-directory "~/Dropbox/Web/mgualt-log/"
+             :publishing-directory "~/Dropbox/Web/mgualt-log/css"
              :publishing-function org-publish-attachment)
             ("imgs"
              :base-directory "~/Dropbox/Web/mgualt-log/content/imgs/"
@@ -234,7 +241,7 @@ Should figure out a good way to make a 3d embedding.
 
 #+RESULTS:
 | mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org  | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ |
-| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/        | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
+| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/css      | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/css     | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
 | imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg  | gif                   | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |
 | docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html | tex                   | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |
 | scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js   | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
