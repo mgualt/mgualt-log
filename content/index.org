@@ -215,7 +215,8 @@ Should figure out a good way to make a 3d embedding.
              :recursive t
              :section-numbers nil
              :table-of-contents nil
-             :publishing-directory "~/Dropbox/Web/mgualt-log/")
+             :publishing-directory "~/Dropbox/Web/mgualt-log/"
+             :publishing-function org-html-publish-to-html)
             ("css"
              :base-directory "~/Dropbox/Web/mgualt-log/content/css"
              :base-extension "css"
@@ -240,10 +241,10 @@ Should figure out a good way to make a 3d embedding.
 #+END_SRC
 
 #+RESULTS:
-| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org  | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ |
-| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/css      | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/css     | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
-| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg  | gif                   | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |
-| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html | tex                   | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |
-| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js   | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |
-| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |      |                       |                                  |                       |                               |                      |                        |                       |                           |
+| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org  | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ | :publishing-function | org-html-publish-to-html |
+| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/css      | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/css     | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |                      |                          |
+| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg  | gif                   | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |                      |                          |
+| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html | tex                   | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |                      |                          |
+| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js   | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |                      |                          |
+| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |      |                       |                                  |                       |                               |                      |                        |                       |                           |                      |                          |
 
