@@ -75,10 +75,10 @@ float:left;
 width:170px;
 }
 .timestamp:before {
-    content: "[";
+    content: "";
 }
 .timestamp:after {
-    content: "]";
+    content: "";
 }
 
 .org-info-js_header-navigation {

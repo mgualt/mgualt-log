@@ -208,6 +208,7 @@ Should figure out a good way to make a 3d embedding.
 #+srcname: org-publish
 #+BEGIN_SRC emacs-lisp
   (setq org-html-head-include-scripts nil)
+  (setq org-html-head-include-default-style nil)
   (setq org-publish-project-alist
           '(("mysite"
              :base-directory "~/Dropbox/Web/mgualt-log/content/"
