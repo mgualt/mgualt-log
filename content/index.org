@@ -16,6 +16,7 @@
 #+OPTIONS: html-style: nil
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 * <2013-08-18 Sun> Restructured website                                :docs:
+  [[http://toroid.org/ams/git-website-howto][First approximation using checkout]]
   [[http://joemaller.com/990/a-web-focused-git-workflow/][setup for pushing local website to server using git]] [[http://davidetaviani.com/2012/04/01/manage-a-website-with-git-and-mirror-it-on-github/][mirror such a
   website on github]] The idea of having a hub between my local edits
   and the www server at the department appears to be a good idea.  I
