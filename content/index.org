@@ -15,6 +15,15 @@
 #+XSLT:
 #+OPTIONS: html-style: nil
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+* <2013-08-18 Sun> Restructured website                                :docs:
+  [[http://joemaller.com/990/a-web-focused-git-workflow/][setup for pushing local website to server using git]] [[http://davidetaviani.com/2012/04/01/manage-a-website-with-git-and-mirror-it-on-github/][mirror such a
+  website on github]] The idea of having a hub between my local edits
+  and the www server at the department appears to be a good idea.  I
+  have not yet figured out how to keep it all in one git repo, now I
+  have separate repos for each course and for the main site. After I
+  do my local edits using org-publish, I simply push to coxeter and
+  this triggers an update-hook or receive-hook which populates my www
+  directory.
 
 * <2013-08-11 Sun> New version of K. Healy's ESKSS                     :docs:
   [[http://kieranhealy.org/resources/emacs-starter-kit.html][Emacs Starter Kit for the Social Sciences]] Would like to have a
