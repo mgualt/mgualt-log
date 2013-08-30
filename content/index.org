@@ -15,6 +15,10 @@
 #+XSLT:
 #+OPTIONS: html-style: nil
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+* <2013-08-30 Fri> Deft mode                                           :docs:
+  Very nice [[http://jblevins.org/projects/deft/][deft-mode]] from J. Blevins -- a version of notational
+  velocity for emacs which is easy to modify and can run on .org
+  files.
 * <2013-08-18 Sun> Restructured website                                :docs:
   [[http://toroid.org/ams/git-website-howto][First approximation using checkout]]
   [[http://joemaller.com/990/a-web-focused-git-workflow/][setup for pushing local website to server using git]] [[http://davidetaviani.com/2012/04/01/manage-a-website-with-git-and-mirror-it-on-github/][mirror such a
