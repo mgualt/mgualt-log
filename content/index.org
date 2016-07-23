@@ -17,7 +17,7 @@
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 
 * <2016-07-23 Sat> Wuliang Wild EoT Club 2016 Spring  :tea:
-![testing](/img/IMG_4599.jpg)
+![testing](/imgs/IMG_4599.jpg)
 
 * <2013-08-30 Fri> Deft mode                                           :docs:
   Very nice [[http://jblevins.org/projects/deft/][deft-mode]] from J. Blevins -- a version of notational
