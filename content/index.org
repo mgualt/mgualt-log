@@ -15,6 +15,10 @@
 #+XSLT:
 #+OPTIONS: html-style: nil
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+* <2016-07-23 Sat> Wuliang Wild EoT Club 2016 Spring  :tea:
+![testing](/img/IMG_4599.jpg)
+
 * <2013-08-30 Fri> Deft mode                                           :docs:
   Very nice [[http://jblevins.org/projects/deft/][deft-mode]] from J. Blevins -- a version of notational
   velocity for emacs which is easy to modify and can run on .org
@@ -217,8 +221,9 @@ Alejandro, Eckhard and I are writing a paper about obtaining geometry
 Map from a torus to a plane.  
 Should figure out a good way to make a 3d embedding.
 [[http://vimeo.com/31933085][Drawing Apparatus]]
-* COMMENT
 
+
+* COMMENT
 #+srcname: org-publish
 #+BEGIN_SRC emacs-lisp
   (setq org-html-head-include-scripts nil)
@@ -254,12 +259,4 @@ Should figure out a good way to make a 3d embedding.
              :publishing-function org-publish-attachment)
             ("thewholedamnshow" :components ("mysite" "css" "imgs" "docs" "scripts"))))
 #+END_SRC
-
-#+RESULTS:
-| mysite           | :base-directory | ~/Dropbox/Web/mgualt-log/content/         | :base-extension | org  | :recursive            | t                                | :section-numbers      | nil                           | :table-of-contents   | nil                    | :publishing-directory | ~/Dropbox/Web/mgualt-log/ | :publishing-function | org-html-publish-to-html |
-| css              | :base-directory | ~/Dropbox/Web/mgualt-log/content/css      | :base-extension | css  | :publishing-directory | ~/Dropbox/Web/mgualt-log/css     | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |                      |                          |
-| imgs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/imgs/    | :base-extension | jpg  | gif                   | png                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/imgs | :publishing-function | org-publish-attachment |                       |                           |                      |                          |
-| docs             | :base-directory | ~/Dropbox/Web/mgualt-log/content/docs/    | :base-extension | html | tex                   | bib                              | :publishing-directory | ~/Dropbox/Web/mgualt-log/docs | :publishing-function | org-publish-attachment |                       |                           |                      |                          |
-| scripts          | :base-directory | ~/Dropbox/Web/mgualt-log/content/scripts/ | :base-extension | js   | :publishing-directory | ~/Dropbox/Web/mgualt-log/scripts | :publishing-function  | org-publish-attachment        |                      |                        |                       |                           |                      |                          |
-| thewholedamnshow | :components     | (mysite css imgs docs scripts)            |                 |      |                       |                                  |                       |                               |                      |                        |                       |                           |                      |                          |
 
